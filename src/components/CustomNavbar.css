@@ -1,5 +1,6 @@
-nav.navbar, .navbar-default {
-  background-color: #2892D7 !important;
+nav.navbar,
+.navbar-default {
+  background-color: #2892d7 !important;
 }
 
 .navbar-default {
@@ -10,10 +11,15 @@ nav.navbar, .navbar-default {
 
 .navbar-default .navbar-nav > li > a {
   color: white;
+
+  margin-top: 12px;
+  margin-bottom: 0px;
 }
 
 .navbar-default .navbar-brand {
   color: white;
+  margin-top: 12px;
+  margin-bottom: 0px;
 }
 
 .navbar-default .navbar-toggle {
@@ -24,16 +30,23 @@ nav.navbar, .navbar-default {
   background-color: white;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
   color: white;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
   color: white;
   background-color: transparent;
+}
+
+.google {
+  margin-top: -12px !important;
 }
